@@ -1,0 +1,14 @@
+server:
+    port: 6021
+
+gpt:
+    keys:
+        -   key: "sk-586d22ef1e9819e1a0334a8993e8871c"
+            weight: 1.0
+            enabled: true
+    domain: https://api.baichuan-ai.com
+
+logging:
+    level:
+        root: debug
+    config: classpath:log4j2.xml
